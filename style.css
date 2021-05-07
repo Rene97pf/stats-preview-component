@@ -40,13 +40,14 @@
 
   .container .picture {
     background: url("./images/image-header-mobile.jpg") no-repeat center/cover;
-    height: 400px;
+    height: 280px;
     border-radius: 10px 10px 0 0;
+    filter: contrast(140%);
   }
   
   .container .picture .overlay {
     background-color: hsla(277, 64%, 61%, 0.7);
-    height: 400px;
+    height: 280px;
     border-radius: 10px 10px 0 0;
   }
 
@@ -104,6 +105,8 @@
           background:url(./images/image-header-desktop.jpg) no-repeat center/cover;
           min-width: 50%;
           border-radius: 00 10px 10px 0px;
+          height: 400px;
+          filter: contrast(130%);
       }
       .container .picture .overlay{
           border-radius: 0px 10px 10px 0px;
